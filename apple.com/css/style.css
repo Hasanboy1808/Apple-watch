@@ -1,0 +1,453 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*:focus{
+    outline: 2px dotted rgb(39, 153, 153);
+    /* outline: none; */
+    outline-offset: 3px;
+}
+
+body{
+    font-family: Roboto,sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.container{
+    margin: 0 auto;
+    max-width: 1040px;
+    padding: 0 20px;
+}
+.logo:hover{
+ opacity: .8;
+}
+.header{
+    margin-top: 30px;
+}
+.header__container{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+ width: 35px;
+ height: 41px;
+}
+.header__nav{
+ display: flex;
+ gap: 40px;
+ align-items:center;
+}
+.header__nav__items{
+    display: flex;
+    gap: 30px;
+}
+.nav__list{
+list-style: none;
+}
+.nav__item{
+ color: #333333;
+ text-decoration: none;
+ font-family: Roboto,sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: center;
+
+
+}
+.nav__item:hover{
+    opacity: .8;
+}
+.form__search{
+    display: inline-block;
+    height: 23px;
+    width: 149px;
+    border: none;
+    /* padding-bottom: 10px; */
+}
+.form__search__input{
+    outline: none;
+    border: none;   
+    border-bottom: 1px solid #333333;
+    padding-bottom: 6px;
+    font-size: 16px;
+    width: 164px;
+
+}
+.form__search__input::placeholder{
+    font-family: Roboto,sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    /* padding-bottom: 6px; */
+}
+/* header end */
+.freedom__section{
+    margin-top: 80px;
+    background-image: url('../img/watches.png');
+    background-repeat: no-repeat;
+    background-position: bottom left calc(50% + 550px);
+    background-size: 583px;
+    /* align-items: center; */
+    height: 583px;
+}
+.freedom__section__container{
+    display: flex;
+    justify-content: space-between;
+}
+.freedom__title{
+    font-family: Roboto,sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.freedom__text{
+    max-width: 450px;
+    border-left: 3px solid #777777;
+    padding-left: 40px;
+    margin-top: 30px;
+    color: #777777;
+    font-family: Roboto,sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.freedom__card{
+    margin-top: 90px;
+    margin-right: auto;
+}
+.freedom__img{
+    transform: translateX(69.9px);
+}
+.freedom__btn{
+    text-decoration: none;
+    background-color: #EA625C;
+    color: white;
+    padding: 12px 20px;
+    width: 260px;
+    margin-top: 30px;
+    font-family: Roboto,sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0px;
+    text-align: center;
+    display: inline-block;
+
+}
+/* freedom end */
+.running{
+border-top: 1px solid #DDDDDD;
+}
+.running__conatiner{
+ display: flex;
+ justify-content: space-between;
+}
+.running__card{
+    margin-top: 68px;
+    max-width: 280px;
+
+}
+.running__card__title{
+    font-family: Roboto,sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #222222;
+
+}
+
+.running__card__text{
+    font-family: Roboto,sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #333333;
+    margin-top: 30px;
+
+}
+.running__card__footer{
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+.running__card__footer__img{
+    display: flex;
+    height: 8px;
+    width: 8px;
+}
+.learn__more{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color:  #EA625C;
+    gap: 10px;
+    margin-top: 20px;
+    font-family: Roboto,sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.learn__more::before{
+    content: '';
+    height: 3px;
+    width: 40px;
+    background-color: #EA625C;
+    transition: .9s;
+}
+.learn__more:hover::before{
+    width: 50px;
+}
+/* running end */
+.sport{
+    margin-top: 70px;
+}
+.sport__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sport__card{
+    max-width: 450px;
+}
+.sport__title{
+    font-family: Roboto,sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+
+}
+.sport__text{
+    font-family: Roboto,sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #777777;
+    margin-top: 30px;
+    border-left: 3px solid #888888;
+    padding-left: 40px;
+
+}
+.sport__btn{
+    display: inline-block;
+    text-decoration: none;
+    padding: 12px;
+    width: 260px;
+    background-color: #EA625C;
+    color: #ffffff;
+    font-family: Roboto,sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0px;
+    text-align: center;
+    margin-top: 30px;
+
+}
+.sport__img{
+    height: 600px;
+    width: 400px;
+}
+/* sport end */
+.health{
+ background-image: url('../img/runners\ 1.png');
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ width: 100%;
+ height: 830.19px;
+ margin-top: 70px;
+}
+.health__container{
+    display: flex;
+    position: relative;
+}
+.health__card{
+    /* margin-right: 125px; */
+    margin-top: 240px;
+    margin-left: auto;
+}
+.health__title{
+    font-family: Roboto,sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #ffffff;
+    max-width: 490px;
+
+}
+.health__text{
+    font-family: Roboto,sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #ffffff;
+    max-width: 460px;
+    margin-top: 30px;
+    border-left: 1px solid #FFFFFF;
+    padding-left: 40px;
+}
+.healt__btn{
+    display: inline-block;
+    font-family: Roboto,sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #ffffff;
+    width: 260px;
+    padding: 12px;
+    text-decoration: none;
+    background-color: #EA625C;
+    margin-top: 30px;
+
+}
+
+.btn:hover{
+    opacity: .8;
+}
+.btn:active{
+    opacity: .6;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
