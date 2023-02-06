@@ -195,31 +195,35 @@ border-top: 1px solid #DDDDDD;
     height: 8px;
     width: 8px;
 }
-.learn__more{
-    display: flex;
-    align-items: center;
-    text-decoration: none;
-    color:  #EA625C;
-    gap: 10px;
+.learn__box{
     margin-top: 20px;
+}
+.learn__more{
+    display: inline-block;
     font-family: Roboto,sans-serif;
     font-size: 16px;
     font-weight: 700;
     line-height: 26px;
     letter-spacing: 0em;
     text-align: left;
-
+    text-decoration: none;
+    color:  #EA625C;
+    
 }
-.learn__more::before{
-    content: '';
-    height: 3px;
+.learn__more__span{
+    display: inline-block;
     width: 40px;
+    height: 3px;
     background-color: #EA625C;
-    transition: .9s;
+    transition: .8s;
+    transform: translateY(-4px);
+    margin-right: 10px;
+    
 }
-.learn__more:hover::before{
+.learn__more:hover .learn__more__span{
     width: 50px;
 }
+
 /* running end */
 .sport{
     margin-top: 70px;
@@ -316,7 +320,7 @@ border-top: 1px solid #DDDDDD;
     color: #ffffff;
     max-width: 460px;
     margin-top: 30px;
-    border-left: 1px solid #FFFFFF;
+    border-left: 3px solid #FFFFFF;
     padding-left: 40px;
 }
 .healt__btn{
