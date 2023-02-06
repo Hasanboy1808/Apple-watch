@@ -65,6 +65,9 @@ list-style: none;
 .nav__item:hover{
     opacity: .8;
 }
+.nav__item:active{
+    opacity: .6;
+}
 .form__search{
     display: inline-block;
     height: 23px;
@@ -278,6 +281,7 @@ border-top: 1px solid #DDDDDD;
  background-position: center;
  background-repeat: no-repeat;
  background-size: cover;
+ background-attachment: fixed;
  width: 100%;
  height: 830.19px;
  margin-top: 70px;
